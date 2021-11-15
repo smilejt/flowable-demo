@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.CustomizeInstanceMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.CustomizeInstance">
+        <!--@mbg.generated-->
+        <!--@Table customize_instance-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="biz_id" jdbcType="VARCHAR" property="bizId"/>
+        <result column="tenant_id" jdbcType="INTEGER" property="tenantId"/>
+        <result column="product_id" jdbcType="VARCHAR" property="productId"/>
+        <result column="authority_id" jdbcType="VARCHAR" property="authorityId"/>
+        <result column="business_code" jdbcType="VARCHAR" property="businessCode"/>
+        <result column="def_id" jdbcType="VARCHAR" property="defId"/>
+        <result column="instance_id" jdbcType="VARCHAR" property="instanceId"/>
+        <result column="data_id" jdbcType="VARCHAR" property="dataId"/>
+        <result column="put_audits_userid" jdbcType="VARCHAR" property="putAuditsUserid"/>
+        <result column="put_audits_time" jdbcType="TIMESTAMP" property="putAuditsTime"/>
+        <result column="task_id_list" jdbcType="VARCHAR" property="taskIdList"/>
+        <result column="flow_status" jdbcType="TINYINT" property="flowStatus"/>
+        <result column="suspend_cause" jdbcType="LONGVARCHAR" property="suspendCause"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="del_flag" jdbcType="BOOLEAN" property="delFlag"/>
+        <result column="creator_id" jdbcType="VARCHAR" property="creatorId"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="modifier_id" jdbcType="VARCHAR" property="modifierId"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+    </resultMap>
+</mapper>

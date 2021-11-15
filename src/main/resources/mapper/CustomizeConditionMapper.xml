@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.CustomizeConditionMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.CustomizeCondition">
+        <!--@mbg.generated-->
+        <!--@Table customize_condition-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="condition_id" jdbcType="VARCHAR" property="conditionId"/>
+        <result column="tenant_id" jdbcType="INTEGER" property="tenantId"/>
+        <result column="product_id" jdbcType="VARCHAR" property="productId"/>
+        <result column="business_code" jdbcType="VARCHAR" property="businessCode"/>
+        <result column="condition_name" jdbcType="VARCHAR" property="conditionName"/>
+        <result column="condition_key" jdbcType="VARCHAR" property="conditionKey"/>
+        <result column="condition_dictionary" jdbcType="VARCHAR" property="conditionDictionary"/>
+        <result column="condition_dictionary_list" jdbcType="VARCHAR" property="conditionDictionaryList"/>
+        <result column="param_type" jdbcType="BOOLEAN" property="paramType"/>
+        <result column="del_flag" jdbcType="BOOLEAN" property="delFlag"/>
+        <result column="creator_id" jdbcType="VARCHAR" property="creatorId"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="modifier_id" jdbcType="VARCHAR" property="modifierId"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+    </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.ApproveRoleMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.ApproveRole">
+        <!--@mbg.generated-->
+        <!--@Table approve_role-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="role_id" jdbcType="VARCHAR" property="roleId"/>
+        <result column="tenant_id" jdbcType="INTEGER" property="tenantId"/>
+        <result column="product_id" jdbcType="VARCHAR" property="productId"/>
+        <result column="role_name" jdbcType="VARCHAR" property="roleName"/>
+        <result column="account_number" jdbcType="INTEGER" property="accountNumber"/>
+        <result column="account_name" jdbcType="LONGVARCHAR" property="accountName"/>
+        <result column="approve_number" jdbcType="INTEGER" property="approveNumber"/>
+        <result column="approve_name" jdbcType="LONGVARCHAR" property="approveName"/>
+        <result column="temporary" jdbcType="BOOLEAN" property="temporary"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="del_flag" jdbcType="BOOLEAN" property="delFlag"/>
+        <result column="creator_id" jdbcType="VARCHAR" property="creatorId"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="modifier_id" jdbcType="VARCHAR" property="modifierId"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+    </resultMap>
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.TaskUserMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.TaskUser">
+        <!--@mbg.generated-->
+        <!--@Table task_user-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="biz_id" jdbcType="VARCHAR" property="bizId"/>
+        <result column="tenant_id" jdbcType="INTEGER" property="tenantId"/>
+        <result column="instance_id" jdbcType="VARCHAR" property="instanceId"/>
+        <result column="task_id" jdbcType="VARCHAR" property="taskId"/>
+        <result column="user_id" jdbcType="VARCHAR" property="userId"/>
+        <result column="creator_id" jdbcType="VARCHAR" property="creatorId"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="modifier_id" jdbcType="VARCHAR" property="modifierId"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+    </resultMap>
+</mapper>

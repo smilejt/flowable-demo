@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.CustomizeDeployMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.CustomizeDeploy">
+        <!--@mbg.generated-->
+        <!--@Table customize_deploy-->
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="deploy_id" jdbcType="VARCHAR" property="deployId"/>
+        <result column="tenant_id" jdbcType="INTEGER" property="tenantId"/>
+        <result column="product_id" jdbcType="VARCHAR" property="productId"/>
+        <result column="business_code" jdbcType="VARCHAR" property="businessCode"/>
+        <result column="save_model_id" jdbcType="VARCHAR" property="saveModelId"/>
+        <result column="save_def_id" jdbcType="VARCHAR" property="saveDefId"/>
+        <result column="save_version" jdbcType="TINYINT" property="saveVersion"/>
+        <result column="save_node_data" jdbcType="LONGVARCHAR" property="saveNodeData"/>
+        <result column="deploy_model_id" jdbcType="VARCHAR" property="deployModelId"/>
+        <result column="deploy_def_id" jdbcType="VARCHAR" property="deployDefId"/>
+        <result column="deploy_version" jdbcType="TINYINT" property="deployVersion"/>
+        <result column="deploy_node_data" jdbcType="LONGVARCHAR" property="deployNodeData"/>
+        <result column="remark" jdbcType="VARCHAR" property="remark"/>
+        <result column="deploy_status" jdbcType="BOOLEAN" property="deployStatus"/>
+        <result column="is_enable" jdbcType="BOOLEAN" property="isEnable"/>
+        <result column="del_flag" jdbcType="BOOLEAN" property="delFlag"/>
+        <result column="creator_id" jdbcType="VARCHAR" property="creatorId"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="modifier_id" jdbcType="VARCHAR" property="modifierId"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+    </resultMap>
+</mapper>

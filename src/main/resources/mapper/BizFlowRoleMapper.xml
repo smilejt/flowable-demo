@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.jt.smile.mapper.BizFlowRoleMapper">
+    <resultMap id="BaseResultMap" type="cn.jt.smile.bean.po.BizFlowRole">
+        <!--@mbg.generated-->
+        <!--@Table biz_flow_role-->
+        <id column="biz_flow_id" jdbcType="VARCHAR" property="bizFlowId"/>
+        <id column="role_id" jdbcType="VARCHAR" property="roleId"/>
+        <result column="biz_flow_name" jdbcType="VARCHAR" property="bizFlowName"/>
+    </resultMap>
+</mapper>
