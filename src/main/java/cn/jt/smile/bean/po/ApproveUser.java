@@ -1,8 +1,6 @@
 package cn.jt.smile.bean.po;
 
 import cn.jt.smile.bean.base.BaseEntity;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -20,7 +18,6 @@ public class ApproveUser extends BaseEntity {
     /**
      * 业务数据ID
      */
-    @TableId(type = IdType.ASSIGN_UUID)
     private String bizId;
 
     /**

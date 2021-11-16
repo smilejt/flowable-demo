@@ -19,7 +19,6 @@ public class ApproveRole extends BaseEntity {
     /**
      * 业务数据ID
      */
-    @TableId(type = IdType.ASSIGN_UUID)
     private String roleId;
 
     /**
